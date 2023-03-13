@@ -27,9 +27,9 @@ def rainbow(word, background=True):
     while foreclolor[-1] == backcolor[-1]:
         backcolor = choice(BACKGROUND)
     if background:
-        print('\r\033[1;' + foreclolor + ';' + backcolor + 'm' + str(word) + RESET, end='')
+        print('\r\033[1;' + foreclolor + ';' + backcolor + 'm' + str(word) + RESET)
     else:
-        print('\r\033[1;' + foreclolor + 'm' + str(word) + RESET, end='')
+        print('\r\033[1;' + foreclolor + 'm' + str(word) + RESET)
         
 
 if __name__ == '__main__':
