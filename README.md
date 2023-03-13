@@ -11,4 +11,4 @@
 `background`背景色是否改变
 
 ## print_replace.py
-把`print`函数替换为`printf` 让`print`函数的每次输出都炫彩起来
+替换`print` 让`print`函数的每次输出都炫彩起来
